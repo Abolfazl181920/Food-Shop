@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ShowFoods = ({ title, calories, image }) => {
+const ShowFoods = ({ title, image }) => {
     return (
         <div className="ShowFoodBody rounded-2xl ml-4">
             <div className="w-64 h-72">

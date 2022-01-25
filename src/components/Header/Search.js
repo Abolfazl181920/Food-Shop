@@ -49,7 +49,6 @@ const SearchInput = () => {
                         <ShowFoods
                         key={food.recipe.label}
                         title={food.recipe.label}
-                        calories={food.recipe.calories}
                         image={food.recipe.image}
                         />
                     ))
