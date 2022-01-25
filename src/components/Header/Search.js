@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
 import { Search } from 'react-ionicons';
+
 import ShowFoods from '../Panel/FoodsApi/ShowFoods';
 
 const SearchInput = () => {
 
-    const APP_ID = "623bd23c";
-    const APP_KEY = "57e7c0200cd81c0d0c220088b1f05e8e";
+    const APP_ID = "64831bc3";
+    const APP_KEY = "8dba4b49296f6e8d7a96c1151083bd55";
 
     const [ searchValue, setSearchValue ] = useState('');
     const [ query, setQuery ] = useState('chicken');

@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { BrowserRouter, Routes, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// Redirect
 
 import App from './App';
 import Food from './components/Panel/Food';
@@ -26,7 +27,7 @@ ReactDOM.render(
         <Route path="/buy" element={ <Buy /> } />
         <Route path="/setting" element={ <Setting /> } />
         <Route path="/foodsinformation" element={ <ShowInfo /> } />
-        {/* <Redirect from="/foodsinformation/" to="/buy/" /> */}
+        {/* <Redirect from="/foodsinformation" to="/buy" /> */}
       </Routes>
     </BrowserRouter>,
   document.getElementById('root')

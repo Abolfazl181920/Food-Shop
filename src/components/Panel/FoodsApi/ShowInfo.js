@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import { Link } from 'react-router-dom';
 
 const ShowInfo = () => {
 
@@ -23,7 +24,11 @@ const ShowInfo = () => {
                     type="number"
                     placeholder="Enter number of foods"
                 />
-                <button className="h-10 w-20 rounded-tr-xl text-white mt-52 bg-indigo-500 cursor-pointer">Buy</button>
+
+                {/* <Link to="/buy"> */}
+                    <button className="h-10 w-20 rounded-tr-xl text-white mt-52 bg-indigo-500 cursor-pointer">Buy</button>
+                {/* </Link> */}
+
             </div>
         </div>
     );
