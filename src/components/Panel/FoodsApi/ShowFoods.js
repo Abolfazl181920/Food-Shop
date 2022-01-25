@@ -5,12 +5,10 @@ import { HeartOutline } from 'react-ionicons';
 
 const ShowFoods = ({ title, image, key }) => {
 
-    const [ likedColor, setLikedColor ] = useState('#FFFFFF');
-    const [ liked, setLiked ] = useState(true);
+    const [ liked, setLiked ] = useState(false);
 
     const handleLikedItem = () => {
         setLiked(!liked);
-        setLikedColor('#FF0000');
     }
 
     return (
@@ -26,7 +24,7 @@ const ShowFoods = ({ title, image, key }) => {
                         key={key}
                         onClick={handleLikedItem}
                         style={{ marginLeft: '200px', marginTop: '30px', cursor: 'pointer' }}
-                        color={likedColor}
+                        color={liked ? '#FF0000' : 'FFFFFF'}
                         height="27px"
                         width="27px"
                     />
