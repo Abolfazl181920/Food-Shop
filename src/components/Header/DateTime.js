@@ -13,7 +13,7 @@ export const DateTime = () => {
     });
 
     return(
-        <div className="flex text-gray-400 font-bold py-1 px-32 absolute gap-2">
+        <div className="flex text-gray-400 font-bold py-1 px-32 py-20 absolute gap-2">
             <p>{date.toLocaleTimeString()}</p> &
             <p>{date.toLocaleDateString()}</p>
         </div>

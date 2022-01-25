@@ -22,7 +22,6 @@
 body {
   min-height: 100vh;
   background: var(--body);
-  overflow: hidden;
 }
 
 /* Panel.js */
@@ -184,10 +183,13 @@ body {
 .SearchInput {
   box-shadow: 0 10px 20px #111111, 0 6px 6px #111111;
   background-color: var(--blue);
+  margin-left: 66%;
+  position: absolute;
+  top: 3.5vh;
 }
 
 input[type="text"]::placeholder {
-  padding-left: 50px;
+  padding-left: 25px;
 }
 
 /* ShowFood.js */
@@ -195,4 +197,12 @@ input[type="text"]::placeholder {
   box-shadow: 0 7px 17px #111111, 0 4px 4px #111111;
   background-color: var(--blue);
   margin-top: 200px;
+}
+
+/* ShowInfo.js */
+.ShowInformation {
+  height: 55vh;
+  width: 30%;
+  background-color: #121212;
+  box-shadow: 0 7px 17px #111111, 0 4px 4px #111111;
 }
