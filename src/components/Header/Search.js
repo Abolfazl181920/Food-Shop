@@ -47,9 +47,9 @@ const SearchInput = () => {
                 {
                     foods.map(food => (
                         <ShowFoods
-                        key={food.recipe.label}
-                        title={food.recipe.label}
-                        image={food.recipe.image}
+                            key={food.recipe.label}
+                            title={food.recipe.label}
+                            image={food.recipe.image}
                         />
                     ))
                 }
