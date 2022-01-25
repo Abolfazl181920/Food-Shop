@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const ShowInfo = () => {
 
@@ -25,9 +25,10 @@ const ShowInfo = () => {
                     placeholder="Enter number of foods"
                 />
 
-                {/* <Link to="/buy"> */}
-                    <button className="h-10 w-20 rounded-tr-xl text-white mt-52 bg-indigo-500 cursor-pointer">Buy</button>
-                {/* </Link> */}
+                {/* I MUST CREATE A COMPONENT TO SHOW FORM AND VALIDATING */}
+                <Link to="/buy">
+                   <button className="h-10 w-20 rounded-tr-xl text-white mt-52 bg-indigo-500 cursor-pointer">Buy</button>
+                </Link>
 
             </div>
         </div>
