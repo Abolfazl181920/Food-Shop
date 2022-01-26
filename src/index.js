@@ -11,6 +11,7 @@ import Off from './components/Panel/Off';
 import Buy from './components/Panel/Buy';
 import Setting from './components/Panel/Setting';
 import ShowInfo from './components/Panel/FoodsApi/ShowInfo';
+import BuyForm from './components/Buys/BuyForm.js';
 
 import './index.css';
 
@@ -25,6 +26,7 @@ ReactDOM.render(
         <Route path="/off" element={ <Off /> } />
         <Route path="/buy" element={ <Buy /> } />
         <Route path="/setting" element={ <Setting /> } />
+        <Route path="/buyForm" element={ <BuyForm /> } />
         <Route path="/foodsinformation" element={ <ShowInfo /> } />
       </Routes>
     </BrowserRouter>,

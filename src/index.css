@@ -206,3 +206,10 @@ input[type="text"]::placeholder {
   background-color: #121212;
   box-shadow: 0 7px 17px #111111, 0 4px 4px #111111;
 }
+
+/* BuyForm.js */
+.FormInput {
+  box-shadow: 0 10px 20px #111111, 0 6px 6px #111111;
+  background-color: var(--blue);
+  position: absolute;
+}
